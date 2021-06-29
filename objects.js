@@ -2,11 +2,24 @@
 // Maak een object met daarin jouw voornaam (string), achternaam (string), leeftijd (getal) en geboortedatum (date object). De datum hoeft niet geformat te worden.
 // Log dit in de terminal.
 
+const personalDetails = {
+  name: 'Gerrie',
+  lastname: 'Eikhof',
+  age: 35,
+  dateOfBirth: new Date(1988, 2, 25),
+};
+console.log(personalDetails)
 
 // ===  Opdracht 2 ===
 // Zorg ervoor dat de volgende string in de terminal wordt gelogd:
 // "Hoi! Ik ben <voornaam>, ik ben <leeftijd> jaar oud."
 
+const introducing = {
+  firstName: 'Gerrie',
+  age: 35,
+};
+
+console.log('Hoi! Ik ben '+ introducing.firstName +', ik ben '+ introducing.age + ' jaar oud' );
 
 // === Opdracht 3: bekijk het volgende object ===
 
